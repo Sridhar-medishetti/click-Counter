@@ -18,86 +18,41 @@ In this project, let's build a **Click Counter** by applying the concepts we hav
 
 </details>
 
-### Set Up Instructions
+# Click Counter
 
-<details>
-<summary>Click to view</summary>
+A simple, responsive, and interactive web application built with React that tracks and displays the number of times a user clicks a button. 
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+---
 
-### Completion Instructions
+## 🚀 Features
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+* **Real-time Counter:** Updates the click count instantly upon user interaction.
+* **Fully Responsive Design:** Optimized for seamless viewing on both mobile devices and large desktop screens via CSS media queries.
+* **Clean UI:** Modern and minimalist interface styled with the 'Roboto' font family and a polished color palette.
 
-The app must have the following functionalities
+---
 
-- Initially the count of the number of clicks should be 0
-- When **Click Me!** button is clicked the count of the number of clicks should be incremented by 1
+## 🛠️ Tech Stack
 
-</details>
+### Frontend
+* **[React.js](https://react.dev/):** A JavaScript library for building component-based user interfaces.
+* **HTML5 & CSS3:** For semantic structure and custom responsive layouts (using Flexbox and Media Queries).
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
+### Design & Typography
+* **Google Fonts ('Roboto'):** For clean and modern typography.
 
-Use these files to complete the implementation:
+---
 
-- `src/components/ClickCounter/index.js`
-- `src/components/ClickCounter/index.css`
-</details>
+## 📦 Project Structure
 
-### Quick Tips
-
-<details close>
-<summary>Click to view</summary>
-<br>
-
-- You can use the below cursor CSS property for buttons to set the type of mouse cursor, to show when the mouse pointer is over an element,
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below outline CSS property for buttons and input elements to remove the highlighting when the elements are clicked,
-
-  ```
-    outline: none;
-  ```
-
-</details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #f1f5f8 ; width: 150px; padding: 10px; color: black">Hex: #f1f5f8</div>
-<div style="background-color: #2d3a35 ; width: 150px; padding: 10px; color: white">Hex: #2d3a35</div>
-<div style="background-color: #c20a72 ; width: 150px; padding: 10px; color: white">Hex: #c20a72</div>
-<div style="background-color: #ffffff ; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #007bff ; width: 150px; padding: 10px; color: white">Hex: #007bff</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+```text
+click-Counter/
+├── src/
+│   ├── components/
+│   │   └── ClickCounter/
+│   │       ├── index.js      # Component logic and structure
+│   │       └── index.css     # Component-specific styles (Flexbox, Responsiveness)
+│   ├── App.js                # Main application component
+│   └── index.js              # Application entry point
+├── public/
+└── README.md
